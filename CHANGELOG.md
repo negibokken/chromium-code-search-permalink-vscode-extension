@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.1.0]
+
+- Rename plugin name
+
+
 ## [0.0.4]
 
 - Make an error message more friendly
