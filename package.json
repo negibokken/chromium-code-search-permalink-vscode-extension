@@ -3,7 +3,7 @@
   "displayName": "chromium-code-search-permalink",
     "repository": "https://github.com/negibokken/chromium-code-search-permalink-vscode-extension",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.66.0"
   },
@@ -22,6 +22,7 @@
       }
     ]
   },
+  "publisher": "negibokken",
   "scripts": {
     "vscode:prepublish": "npm run package",
     "compile": "webpack",

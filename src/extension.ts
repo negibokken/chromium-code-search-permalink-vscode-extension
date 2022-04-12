@@ -30,8 +30,18 @@ export function activate(context: vscode.ExtensionContext) {
 
 			const baseURL = "https://source.chromium.org/chromium/chromium/src"
 
-		    const headFile = vscode.workspace.workspaceFolders[0].uri.path + "/.git/HEAD" ;
-			const doc = await vscode.workspace.openTextDocument(headFile);
+			if (f.startsWith('vscode-remote://')) {
+				f = f.replace(new RegExp('vscode-remote://[^/]+'),'')
+			}
+
+		    const headFile = f + "/.git/HEAD" ;
+			let doc: vscode.TextDocument;
+			try {
+				doc = await vscode.workspace.openTextDocument(headFile);
+			} catch (e) {
+				vscode.window.showInformationMessage(`Please open directory that has .git directory as workspace. ${e}`);
+				return;
+			}
 			const content = doc.getText()
 			let branchOrTagName: string = content.startsWith('ref: refs/heads/') ?
         		content.replace(/^(ref: refs\/heads\/\.*)/, '').trim() :
