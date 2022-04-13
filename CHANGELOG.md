@@ -1,5 +1,13 @@
 # Change Log
 
+## [0.1.3]
+
+- Fix URL has new line bug
+
+## [0.1.2]
+
+- Fix to use branch or tag correctly
+
 ## [0.1.1]
 
 - Fix property name

@@ -45,7 +45,7 @@ export function activate(context: vscode.ExtensionContext) {
 			const content = doc.getText()
 			let branchOrTagName: string = content.startsWith('ref: refs/heads/') ?
         		content.replace(/^(ref: refs\/heads\/\.*)/, '').trim() :
-				"main"
+				content.trim();
 
 
 			const start = editor?.selection.start.line;
