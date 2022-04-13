@@ -1,6 +1,6 @@
 {
   "name": "chromium-code-search-permalink",
-  "displayname": "Copy Chromium Code Search Permalink",
+  "displayName": "Copy Chromium Code Search Permalink",
     "repository": "https://github.com/negibokken/chromium-code-search-permalink-vscode-extension",
   "description": "",
   "version": "0.1.0",
