@@ -6,6 +6,12 @@ The example image is as below.
 
 ![](./example/sample.gif)
 
+## Supported platform
+
+Currently I confirmed that this extension worked on macOS and Linux.
+
+When you can confirm that this extension work on Windows or other platforms, I'm happy if you let me know that :)
+
 ## Issue
 
 [GitHub issue](https://github.com/negibokken/chromium-code-search-permalink-vscode-extension/issues)
