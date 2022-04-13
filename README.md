@@ -10,7 +10,7 @@ The example image is as below.
 
 Currently I confirmed that this extension worked on macOS and Linux.
 
-When you can confirm that this extension work on Windows or other platforms, I'm happy if you let me know that :)
+When you can confirm that this extension work on Windows or other platforms, I'm happy if you let [me](https://twitter.com/negibokken) know that :)
 
 ## Issue
 
