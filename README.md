@@ -6,6 +6,10 @@ The example image is as below.
 
 ![](./example/sample.gif)
 
+## Install
+
+The extension is available <a href="https://marketplace.visualstudio.com/items?itemName=negibokken.chromium-code-search-permalink">here</a>!
+
 ## Supported platform
 
 Currently I confirmed that this extension worked on macOS and Linux.
